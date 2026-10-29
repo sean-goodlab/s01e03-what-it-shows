@@ -1,0 +1,27 @@
+---
+layout: runbook
+title: '#4471 · two causes'
+owner: Sean Southerland
+status: filed
+reviewed: 2026-10-28
+signature: Sean Southerland
+---
+
+<script>
+  import CauseTable from '#lib/kb/CauseTable.svelte';
+  import RenderStamp from '#lib/kb/RenderStamp.svelte';
+</script>
+
+#4471 merged every date report into one known issue. The reports are two causes. The table computes the split from the export. Intake tags are a guess from the browser. The cause comes from the tenant: the locale they write dates in, and the booking form they run.
+
+`parser`. The shared parser reads every date month first. A day-first tenant's dates come out flipped.
+
+`hint`. booking-v3 prints MM/DD/YYYY under the date field. People on that form type the month first, and the form reads the day first.
+
+Desk notes name reports that were read as a one-day move. They stay in the cause their tenant gives them. The table footnotes those reports under that cause.
+
+## What #4471 contains
+
+<CauseTable ticket={4471} />
+
+<RenderStamp signature="Sean Southerland" />
