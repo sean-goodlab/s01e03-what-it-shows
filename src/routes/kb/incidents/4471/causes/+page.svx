@@ -4,7 +4,7 @@ title: '#4471 · two causes'
 owner: Sean Southerland
 status: filed
 reviewed: 2026-10-28
-signature: Sean Southerland
+signature: "v1.eyJzdWIiOiI1MDczIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTMyNDM5MDMsImV4cCI6MTc5MzMzMDMwM30.b7wPh1IwoXwmahM4ejvzCwMaJK7bcO9LMI_MPbHi_ck"
 ---
 
 <script>
@@ -24,4 +24,4 @@ Desk notes name reports that were read as a one-day move. They stay in the cause
 
 <CauseTable ticket={4471} />
 
-<RenderStamp signature="Sean Southerland" />
+<RenderStamp signature="v1.eyJzdWIiOiI1MDczIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTMyNDM5MDMsImV4cCI6MTc5MzMzMDMwM30.b7wPh1IwoXwmahM4ejvzCwMaJK7bcO9LMI_MPbHi_ck" />
